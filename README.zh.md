@@ -2,6 +2,8 @@
 
 **Music Tagger** 是一款现代、高性能的音乐库元数据（Tag）自动化刮削与标签管理系统，专为拥有大量本地音乐收藏的用户打造。只需简单部署，即可拥有一个美观且全功能的音乐信息中心。
 
+🔗 **GitHub 仓库**: [fanszoro/music-tagger](https://github.com/fanszoro/music-tagger)
+
 > [!NOTE]
 > 英文版本的文档请参阅 [README.md](README.md)。
 

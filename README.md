@@ -2,6 +2,8 @@
 
 **Music Tagger** is a modern, high-performance web application designed for automated music metadata scraping, tag management, and audio library organization. Built for users with large local collections, it provides an effortless information hub natively via Docker.
 
+🔗 **GitHub Repository**: [fanszoro/music-tagger](https://github.com/fanszoro/music-tagger)
+
 > [!NOTE]
 > For the Chinese version of this documentation, please see [README.zh.md](README.zh.md).
 
