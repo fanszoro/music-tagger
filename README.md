@@ -5,6 +5,12 @@
 > [!NOTE]
 > For the Chinese version of this documentation, please see [README.zh.md](README.zh.md).
 
+## 🖼️ Preview
+
+| Dashboard | Scraper Pipeline |
+| :---: | :---: |
+| ![Dashboard](docs/images/dashboard.png) | ![Pipeline](docs/images/pipeline.png) |
+
 ## ✨ Key Features
 
 - **🛡️ 100% Self-Hosted & Private**: Your data, listening habits, and music files remain fully under your control on your server.
