@@ -7,9 +7,14 @@
 
 ## 🖼️ Preview
 
-| Dashboard | Scraper Pipeline |
+| Dashboard & Themes |
+| :---: |
+| ![Dashboard](docs/images/dashboard.png) |
+| ![Themes](docs/images/theme-board.png) |
+
+| Logs & Status | Scraper Pipeline |
 | :---: | :---: |
-| ![Dashboard](docs/images/dashboard.png) | ![Pipeline](docs/images/pipeline.png) |
+| ![Logs](docs/images/log-status.png) | ![Scraper](docs/images/scraper.png) |
 
 ## ✨ Key Features
 

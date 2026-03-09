@@ -7,9 +7,14 @@
 
 ## 🖼️ 界面预览
 
-| 仪表盘 | 扫描与刮削流水线 |
+| 仪表盘与主题 |
+| :---: |
+| ![仪表盘](docs/images/dashboard.png) |
+| ![主题展示](docs/images/theme-board.png) |
+
+| 日志与状态 | 扫描与刮削流水线 |
 | :---: | :---: |
-| ![仪表盘](docs/images/dashboard.png) | ![流水线](docs/images/pipeline.png) |
+| ![日志](docs/images/log-status.png) | ![刮削流水线](docs/images/scraper.png) |
 
 ## ✨ 核心特性
 
