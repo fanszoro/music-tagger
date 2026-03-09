@@ -18,11 +18,11 @@
 
 ## ✨ Key Features
 
-- **🛡️ 100% Self-Hosted & Private**: Your data, listening habits, and music files remain fully under your control on your server.
-- **🚀 High Performance**: Powered by an asynchronous Python FastAPI backend directly compiled into a highly-optimized standalone binary utilizing Nuitka.
-- **🎨 Modern Interaction**: Features an immersive Single-Page Application (SPA) frontend beautifully crafted with Vue 3 and TailwindCSS.
-- **🔌 Automated Scraping**: Smart plugin-based pipelines identify missing metadata and fetch from robust sources (AcousticID, MusicBrainz, Last.fm, etc.).
-- **🐳 Simple Deployment**: Simple, one-command Docker Compose stack securely covering the monolithic app, PostgreSQL, and Redis out of the box with zero complications.
+- **🛡️ Privacy First, Fully Self-Hosted**: Keep your music library, metadata, and history safely on your own server. Total privacy with no third-party tracking.
+- **🚀 Lightning-Fast Management**: Enjoy instantaneous response times and seamless browsing, even with tens of thousands of tracks in your collection.
+- **🎨 Immersive Visual Experience**: A beautifully designed, interactive interface featuring a wide range of themes to suit your style.
+- **🔌 Automated Metadata Magic**: Automatically identify tracks and fill in missing artist, album, and language details using intelligent scraping pipelines.
+- **🐳 Zero-Friction Setup**: Get up and running in minutes with a streamlined deployment that handles database and infrastructure automatically.
 
 ## 📦 Quick Deployment Guide
 
