@@ -21,15 +21,19 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Clone wiki repo
+        id: clone
         run: |
-          if ! git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.wiki.git wiki; then
-            echo "⚠️  Wiki repository not found — please create the first page at:"
+          if git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.wiki.git wiki; then
+            echo "ok=true" >> $GITHUB_OUTPUT
+          else
+            echo "ok=false" >> $GITHUB_OUTPUT
+            echo "⚠️  Wiki not initialized. Please create the first page at:"
             echo "    https://github.com/${{ github.repository }}/wiki"
             echo "    Then re-run this workflow."
-            exit 0
           fi
 
       - name: Prepare wiki pages
+        if: steps.clone.outputs.ok == 'true'
         run: |
           # EN guides
           cp docs/guide/getting-started.md        wiki/Getting-Started.md
@@ -71,6 +75,7 @@ jobs:
           EOF
 
       - name: Push to wiki
+        if: steps.clone.outputs.ok == 'true'
         run: |
           cd wiki
           git config user.name "github-actions[bot]"
