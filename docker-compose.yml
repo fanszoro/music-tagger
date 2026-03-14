@@ -32,7 +32,7 @@ services:
 
   app:
     # Use the image built by `make build-release-module` or `make build-release`
-    image: fanss/music-tagger:v0.2.0
+    image: fanss/music-tagger:latest
     container_name: music-tag-app
     depends_on:
       db:
