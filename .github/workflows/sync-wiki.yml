@@ -6,7 +6,7 @@ on:
       - v0.3.0
       - main
     paths:
-      - 'docs/**'
+      - "docs/**"
   workflow_dispatch:
 
 permissions:
@@ -77,28 +77,28 @@ jobs:
 
           for f in wiki/*.md; do fix_for_wiki "$f"; done
 
-          # Generate Home page (no leading spaces — heredoc without indentation)
-          cat > wiki/Home.md << 'EOF'
-# Music Tagger Wiki
-
-> Full documentation site: https://fanszoro.github.io/music-tagger/
-
-## English
-- [Getting Started](Getting-Started)
-- [Themes](Feature-Themes)
-- [Dispute Management](Feature-Dispute-Management)
-- [Logs & Cache](Feature-Logs-and-Cache)
-- [Player & Editor](Feature-Player-and-Editor)
-- [File Health](Feature-File-Health)
-
-## 中文
-- [快速部署](快速部署)
-- [主题](功能-主题)
-- [争议管理](功能-争议管理)
-- [日志与缓存](功能-日志与缓存)
-- [播放器与编辑器](功能-播放器与编辑器)
-- [文件健康检测](功能-文件健康检测)
-EOF
+          # Generate Home page using echo to avoid YAML heredoc indentation conflicts
+          {
+            echo "# Music Tagger Wiki"
+            echo ""
+            echo "> Full documentation site: https://fanszoro.github.io/music-tagger/"
+            echo ""
+            echo "## English"
+            echo "- [Getting Started](Getting-Started)"
+            echo "- [Themes](Feature-Themes)"
+            echo "- [Dispute Management](Feature-Dispute-Management)"
+            echo "- [Logs & Cache](Feature-Logs-and-Cache)"
+            echo "- [Player & Editor](Feature-Player-and-Editor)"
+            echo "- [File Health](Feature-File-Health)"
+            echo ""
+            echo "## 中文"
+            echo "- [快速部署](快速部署)"
+            echo "- [主题](功能-主题)"
+            echo "- [争议管理](功能-争议管理)"
+            echo "- [日志与缓存](功能-日志与缓存)"
+            echo "- [播放器与编辑器](功能-播放器与编辑器)"
+            echo "- [文件健康检测](功能-文件健康检测)"
+          } > wiki/Home.md
 
       - name: Push to wiki
         if: steps.clone.outputs.ok == 'true'
