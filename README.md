@@ -60,7 +60,7 @@ Every scraping job, metadata write, and system event is captured in a structured
 
 | Operation Logs | Cache Browser |
 | :---: | :---: |
-| ![Logs](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/log-status.png) | ![Cache](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/cache-browser.png) |
+| ![Logs](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/log-status.png) | ![Cache](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/cache-browser-1.png) |
 
 > 📸 *[Cache browser screenshot — coming soon]*
 

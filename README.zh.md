@@ -60,7 +60,7 @@ Music Tagger 内置大量精心设计的主题，涵盖深色、浅色及高对�
 
 | 操作日志 | 缓存浏览器 |
 | :---: | :---: |
-| ![日志](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/log-status.png) | ![缓存](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/cache-browser.png) |
+| ![日志](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/log-status.png) | ![缓存](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/cache-browser-1.png) |
 
 > 📸 *[缓存浏览器截图 — 即将更新]*
 
