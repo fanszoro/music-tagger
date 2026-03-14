@@ -7,6 +7,7 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/fanss/music-tagger?style=flat-square&logo=docker)](https://hub.docker.com/r/fanss/music-tagger)
 [![License](https://img.shields.io/github/license/fanszoro/music-tagger?style=flat-square)](https://github.com/fanszoro/music-tagger/blob/main/LICENSE)
 [![Version](https://img.shields.io/badge/version-v0.3.0-blue?style=flat-square)](https://github.com/fanszoro/music-tagger/releases/tag/v0.3.0)
+[![Docs](https://img.shields.io/badge/docs-online-brightgreen?style=flat-square&logo=gitbook)](https://fanszoro.github.io/music-tagger/)
 
 > [!NOTE]
 > For the Chinese version of this documentation, please see [README.zh.md](README.zh.md).

@@ -7,6 +7,7 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/fanss/music-tagger?style=flat-square&logo=docker)](https://hub.docker.com/r/fanss/music-tagger)
 [![License](https://img.shields.io/github/license/fanszoro/music-tagger?style=flat-square)](https://github.com/fanszoro/music-tagger/blob/main/LICENSE)
 [![Version](https://img.shields.io/badge/%E7%89%88%E6%9C%AC-v0.3.0-blue?style=flat-square)](https://github.com/fanszoro/music-tagger/releases/tag/v0.3.0)
+[![文档](https://img.shields.io/badge/文档-在线查看-brightgreen?style=flat-square&logo=gitbook)](https://fanszoro.github.io/music-tagger/)
 
 > [!NOTE]
 > 英文版本的文档请参阅 [README.md](README.md)。
