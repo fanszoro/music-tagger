@@ -15,12 +15,12 @@
 
 | Dashboard & Themes |
 | :---: |
-| ![Dashboard](docs/images/dashboard.png) |
-| ![Themes](docs/images/theme-board.png) |
+| ![Dashboard](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/dashboard.png) |
+| ![Themes](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/theme-board.png) |
 
 | Logs & Status | Scraper Pipeline |
 | :---: | :---: |
-| ![Logs](docs/images/log-status.png) | ![Scraper](docs/images/scraper.png) |
+| ![Logs](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/log-status.png) | ![Scraper](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/scraper.png) |
 
 ## ✨ Key Features
 

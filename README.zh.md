@@ -15,12 +15,12 @@
 
 | 仪表盘与主题 |
 | :---: |
-| ![仪表盘](docs/images/dashboard.png) |
-| ![主题展示](docs/images/theme-board.png) |
+| ![仪表盘](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/dashboard.png) |
+| ![主题展示](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/theme-board.png) |
 
 | 日志与状态 | 扫描与刮削流水线 |
 | :---: | :---: |
-| ![日志](docs/images/log-status.png) | ![刮削流水线](docs/images/scraper.png) |
+| ![日志](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/log-status.png) | ![刮削流水线](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/scraper.png) |
 
 ## ✨ 核心特性
 
