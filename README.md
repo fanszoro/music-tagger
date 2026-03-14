@@ -30,6 +30,72 @@
 - **🔌 Automated Metadata Magic**: Automatically identify tracks and fill in missing artist, album, and language details using intelligent scraping pipelines.
 - **🐳 Zero-Friction Setup**: Get up and running in minutes with a streamlined deployment that handles database and infrastructure automatically.
 
+## 🔍 Feature Highlights
+
+### 🎨 Rich Theme Gallery
+
+Music Tagger ships with a broad collection of hand-crafted themes — dark, light, and high-contrast variants — switchable instantly from the sidebar without any page reload.
+
+| Light Themes | Dark Themes |
+| :---: | :---: |
+| ![Light Themes](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/themes-light.png) | ![Dark Themes](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/themes-dark.png) |
+
+> 📸 *[Theme gallery screenshots — coming soon]*
+
+---
+
+### ⚔️ Dispute Management
+
+When multiple scrapers return conflicting metadata for the same track, Music Tagger surfaces every candidate match and lets you decide field-by-field which value wins. Conflict resolution is tracked per-track so you can revisit past decisions at any time.
+
+![Dispute Manager](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/dispute-manager.png)
+
+> 📸 *[Dispute manager screenshot — coming soon]*
+
+---
+
+### 📋 Logs & Cache
+
+Every scraping job, metadata write, and system event is captured in a structured log viewer. The built-in cache browser shows what has been fetched from external sources, lets you inspect individual cache entries, and provides bulk-invalidation controls so stale data never silently persists.
+
+| Operation Logs | Cache Browser |
+| :---: | :---: |
+| ![Logs](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/log-status.png) | ![Cache](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/cache-browser.png) |
+
+> 📸 *[Cache browser screenshot — coming soon]*
+
+---
+
+### 🎵 Player, Editor & More
+
+A full-featured in-app experience beyond just tagging:
+
+- **▶️ Integrated Player** — Preview any track directly without leaving the app.
+- **✏️ Metadata Editor** — Fine-tune every tag field inline with validation hints.
+- **📝 Lyrics Binding** — Attach or fetch synced / unsynced LRC lyrics per track.
+- **🎬 MV Linking** — Associate a music video URL to any track for quick launch.
+- **↩️ One-Click Revert** — Roll back any metadata change to its previous state.
+
+![Player & Editor](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/player-editor.png)
+
+> 📸 *[Player & editor screenshots — coming soon]*
+
+---
+
+### 🗂️ File Health
+
+Keep your library clean with automated detection tools:
+
+- **Missing File Scanner** — Identifies tracks in the database whose audio files can no longer be found on disk.
+- **Duplicate Detector** — Finds exact and near-duplicate files based on audio fingerprint or metadata similarity.
+- **Path Repair** — Suggests and applies bulk path corrections after directory reorganisations.
+
+![File Health](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/file-health.png)
+
+> 📸 *[File health dashboard screenshot — coming soon]*
+
+---
+
 ## 📦 Quick Deployment Guide
 
 ### 1. Prepare Environment Variables

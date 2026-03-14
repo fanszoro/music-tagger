@@ -30,6 +30,72 @@
 - **🔌 全自动标签修复**：智能识别音源并自动补全缺失的艺术家、专辑及语种信息，彻底告别繁琐的手动编辑。
 - **🐳 一键启动，极速部署**：标准化的容器化流程，自动配置所有运行组件，五分钟内开启您的音乐之旅。
 
+## 🔍 功能亮点
+
+### 🎨 丰富的主题库
+
+Music Tagger 内置大量精心设计的主题，涵盖深色、浅色及高对比度多种风格，可在侧边栏一键切换，无需刷新页面。
+
+| 浅色主题 | 深色主题 |
+| :---: | :---: |
+| ![浅色主题](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/themes-light.png) | ![深色主题](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/themes-dark.png) |
+
+> 📸 *[主题展示截图 — 即将更新]*
+
+---
+
+### ⚔️ 争议管理
+
+当多个刮削来源对同一音轨返回相互冲突的元数据时，Music Tagger 会汇总所有候选结果，让你逐字段决定采用哪个值。所有冲突仲裁记录均与曲目绑定，随时可以回溯和修改。
+
+![争议管理器](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/dispute-manager.png)
+
+> 📸 *[争议管理器截图 — 即将更新]*
+
+---
+
+### 📋 日志与缓存
+
+每次刮削任务、元数据写入及系统事件均被记录在结构化日志查看器中。内置的缓存浏览器可查看来自外部源的已拉取数据，支持逐条查看和批量清除，确保旧数据不会悄然留存。
+
+| 操作日志 | 缓存浏览器 |
+| :---: | :---: |
+| ![日志](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/log-status.png) | ![缓存](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/cache-browser.png) |
+
+> 📸 *[缓存浏览器截图 — 即将更新]*
+
+---
+
+### 🎵 播放器、编辑器及更多
+
+不仅仅是打标签，Music Tagger 提供完整的应用内体验：
+
+- **▶️ 内嵌播放器** — 无需离开应用即可试听任意曲目。
+- **✏️ 元数据编辑器** — 内联编辑所有标签字段，附带实时校验提示。
+- **📝 歌词绑定** — 为任意曲目附加或抓取同步/非同步 LRC 歌词。
+- **🎬 MV 链接** — 为曲目关联 MV 地址，一键跳转。
+- **↩️ 一键回退** — 将任意元数据更改回滚至修改前的状态。
+
+![播放器与编辑器](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/player-editor.png)
+
+> 📸 *[播放器与编辑器截图 — 即将更新]*
+
+---
+
+### 🗂️ 文件健康检测
+
+通过自动化工具保持曲库整洁：
+
+- **丢失文件扫描** — 检测数据库中存在但音频文件已不在磁盘上的曲目。
+- **重复文件检测** — 基于音频指纹或元数据相似度发现完全重复及近似重复的文件。
+- **路径修复** — 在目录结构调整后，自动建议并批量应用路径修正。
+
+![文件健康](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/file-health.png)
+
+> 📸 *[文件健康检测截图 — 即将更新]*
+
+---
+
 ## 📦 快速部署指南
 
 我们强烈推荐使用 `docker-compose.yml` 方式在您的服务器上部署。

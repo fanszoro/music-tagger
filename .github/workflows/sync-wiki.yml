@@ -1,0 +1,75 @@
+name: Sync Docs to GitHub Wiki
+
+on:
+  push:
+    branches:
+      - v0.3.0
+      - main
+    paths:
+      - "docs/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-wiki:
+    name: Mirror docs to Wiki
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Clone wiki repo
+        run: |
+          git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.wiki.git wiki
+
+      - name: Prepare wiki pages
+        run: |
+          # EN guides
+          cp docs/guide/getting-started.md        wiki/Getting-Started.md
+          cp docs/features/themes.md              wiki/Feature-Themes.md
+          cp docs/features/scraper.md             wiki/Feature-Dispute-Management.md
+          cp docs/features/logs-cache.md          wiki/Feature-Logs-and-Cache.md
+          cp docs/features/player.md              wiki/Feature-Player-and-Editor.md
+          cp docs/features/file-management.md     wiki/Feature-File-Health.md
+
+          # ZH guides
+          cp docs/zh/guide/getting-started.md           wiki/快速部署.md
+          cp docs/zh/features/themes.md                 wiki/功能-主题.md
+          cp docs/zh/features/scraper.md                wiki/功能-争议管理.md
+          cp docs/zh/features/logs-cache.md             wiki/功能-日志与缓存.md
+          cp docs/zh/features/player.md                 wiki/功能-播放器与编辑器.md
+          cp docs/zh/features/file-management.md        wiki/功能-文件健康检测.md
+
+          # Home index
+          cat > wiki/Home.md << 'EOF'
+          # Music Tagger Wiki
+
+          > Full documentation: https://fanszoro.github.io/music-tagger/
+
+          ## English
+          - [Getting Started](Getting-Started)
+          - [Themes](Feature-Themes)
+          - [Dispute Management](Feature-Dispute-Management)
+          - [Logs & Cache](Feature-Logs-and-Cache)
+          - [Player & Editor](Feature-Player-and-Editor)
+          - [File Health](Feature-File-Health)
+
+          ## 中文
+          - [快速部署](快速部署)
+          - [主题](功能-主题)
+          - [争议管理](功能-争议管理)
+          - [日志与缓存](功能-日志与缓存)
+          - [播放器与编辑器](功能-播放器与编辑器)
+          - [文件健康检测](功能-文件健康检测)
+          EOF
+
+      - name: Push to wiki
+        run: |
+          cd wiki
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git diff --cached --quiet && echo "No changes to sync." || \
+            (git commit -m "docs: sync from ${{ github.sha }}" && git push)
