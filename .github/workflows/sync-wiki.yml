@@ -6,7 +6,7 @@ on:
       - v0.3.0
       - main
     paths:
-      - "docs/**"
+      - 'docs/**'
   workflow_dispatch:
 
 permissions:
@@ -35,44 +35,70 @@ jobs:
       - name: Prepare wiki pages
         if: steps.clone.outputs.ok == 'true'
         run: |
-          # EN guides
-          cp docs/guide/getting-started.md        wiki/Getting-Started.md
-          cp docs/features/themes.md              wiki/Feature-Themes.md
-          cp docs/features/scraper.md             wiki/Feature-Dispute-Management.md
-          cp docs/features/logs-cache.md          wiki/Feature-Logs-and-Cache.md
-          cp docs/features/player.md              wiki/Feature-Player-and-Editor.md
-          cp docs/features/file-management.md     wiki/Feature-File-Health.md
+          # Copy files
+          cp docs/guide/getting-started.md         wiki/Getting-Started.md
+          cp docs/features/themes.md               wiki/Feature-Themes.md
+          cp docs/features/scraper.md              wiki/Feature-Dispute-Management.md
+          cp docs/features/logs-cache.md           wiki/Feature-Logs-and-Cache.md
+          cp docs/features/player.md               wiki/Feature-Player-and-Editor.md
+          cp docs/features/file-management.md      wiki/Feature-File-Health.md
+          cp docs/zh/guide/getting-started.md      wiki/快速部署.md
+          cp docs/zh/features/themes.md            wiki/功能-主题.md
+          cp docs/zh/features/scraper.md           wiki/功能-争议管理.md
+          cp docs/zh/features/logs-cache.md        wiki/功能-日志与缓存.md
+          cp docs/zh/features/player.md            wiki/功能-播放器与编辑器.md
+          cp docs/zh/features/file-management.md   wiki/功能-文件健康检测.md
 
-          # ZH guides
-          cp docs/zh/guide/getting-started.md           wiki/快速部署.md
-          cp docs/zh/features/themes.md                 wiki/功能-主题.md
-          cp docs/zh/features/scraper.md                wiki/功能-争议管理.md
-          cp docs/zh/features/logs-cache.md             wiki/功能-日志与缓存.md
-          cp docs/zh/features/player.md                 wiki/功能-播放器与编辑器.md
-          cp docs/zh/features/file-management.md        wiki/功能-文件健康检测.md
+          # Fix VitePress syntax and internal links for all wiki pages
+          fix_for_wiki() {
+            local f="$1"
+            # VitePress containers → plain GitHub markdown
+            sed -i 's/^::: warning$/> ⚠️ **Warning**/g' "$f"
+            sed -i 's/^::: tip$/> 💡 **Tip**/g'         "$f"
+            sed -i 's/^::: note$/> ℹ️ **Note**/g'        "$f"
+            sed -i 's/^:::$//g'                           "$f"
 
-          # Home index
+            # EN VitePress paths → Wiki page names
+            sed -i 's|](/guide/getting-started)|](Getting-Started)|g'         "$f"
+            sed -i 's|](/features/themes)|](Feature-Themes)|g'                "$f"
+            sed -i 's|](/features/scraper)|](Feature-Dispute-Management)|g'   "$f"
+            sed -i 's|](/features/logs-cache)|](Feature-Logs-and-Cache)|g'    "$f"
+            sed -i 's|](/features/player)|](Feature-Player-and-Editor)|g'     "$f"
+            sed -i 's|](/features/file-management)|](Feature-File-Health)|g'  "$f"
+
+            # ZH VitePress paths → Wiki page names
+            sed -i 's|](/zh/guide/getting-started)|](快速部署)|g'             "$f"
+            sed -i 's|](/zh/features/themes)|](功能-主题)|g'                  "$f"
+            sed -i 's|](/zh/features/scraper)|](功能-争议管理)|g'             "$f"
+            sed -i 's|](/zh/features/logs-cache)|](功能-日志与缓存)|g'        "$f"
+            sed -i 's|](/zh/features/player)|](功能-播放器与编辑器)|g'        "$f"
+            sed -i 's|](/zh/features/file-management)|](功能-文件健康检测)|g' "$f"
+          }
+
+          for f in wiki/*.md; do fix_for_wiki "$f"; done
+
+          # Generate Home page (no leading spaces — heredoc without indentation)
           cat > wiki/Home.md << 'EOF'
-          # Music Tagger Wiki
+# Music Tagger Wiki
 
-          > Full documentation: https://fanszoro.github.io/music-tagger/
+> Full documentation site: https://fanszoro.github.io/music-tagger/
 
-          ## English
-          - [Getting Started](Getting-Started)
-          - [Themes](Feature-Themes)
-          - [Dispute Management](Feature-Dispute-Management)
-          - [Logs & Cache](Feature-Logs-and-Cache)
-          - [Player & Editor](Feature-Player-and-Editor)
-          - [File Health](Feature-File-Health)
+## English
+- [Getting Started](Getting-Started)
+- [Themes](Feature-Themes)
+- [Dispute Management](Feature-Dispute-Management)
+- [Logs & Cache](Feature-Logs-and-Cache)
+- [Player & Editor](Feature-Player-and-Editor)
+- [File Health](Feature-File-Health)
 
-          ## 中文
-          - [快速部署](快速部署)
-          - [主题](功能-主题)
-          - [争议管理](功能-争议管理)
-          - [日志与缓存](功能-日志与缓存)
-          - [播放器与编辑器](功能-播放器与编辑器)
-          - [文件健康检测](功能-文件健康检测)
-          EOF
+## 中文
+- [快速部署](快速部署)
+- [主题](功能-主题)
+- [争议管理](功能-争议管理)
+- [日志与缓存](功能-日志与缓存)
+- [播放器与编辑器](功能-播放器与编辑器)
+- [文件健康检测](功能-文件健康检测)
+EOF
 
       - name: Push to wiki
         if: steps.clone.outputs.ok == 'true'
