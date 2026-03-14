@@ -1,4 +1,4 @@
-# 🎵 Music Tagger - v0.2.0
+# 🎵 Music Tagger - v0.3.0
 
 **Music Tagger** 是一款现代、高性能的音乐库元数据（Tag）自动化刮削与标签管理系统，专为拥有大量本地音乐收藏的用户打造。只需简单部署，即可拥有一个美观且全功能的音乐信息中心。
 
@@ -6,7 +6,7 @@
 [![GitHub Forks](https://img.shields.io/github/forks/fanszoro/music-tagger?style=flat-square&logo=github)](https://github.com/fanszoro/music-tagger)
 [![Docker Pulls](https://img.shields.io/docker/pulls/fanss/music-tagger?style=flat-square&logo=docker)](https://hub.docker.com/r/fanss/music-tagger)
 [![License](https://img.shields.io/github/license/fanszoro/music-tagger?style=flat-square)](https://github.com/fanszoro/music-tagger/blob/main/LICENSE)
-[![Version](https://img.shields.io/badge/%E7%89%88%E6%9C%AC-v0.2.0-blue?style=flat-square)](https://github.com/fanszoro/music-tagger/releases/tag/v0.2.0)
+[![Version](https://img.shields.io/badge/%E7%89%88%E6%9C%AC-v0.3.0-blue?style=flat-square)](https://github.com/fanszoro/music-tagger/releases/tag/v0.3.0)
 
 > [!NOTE]
 > 英文版本的文档请参阅 [README.md](README.md)。
@@ -103,7 +103,7 @@ services:
 
   app:
     # 挂载预编译生产镜像
-    image: fanss/music-tagger:v0.2.0
+    image: fanss/music-tagger:v0.3.0
     container_name: music-tag-app
     depends_on:
       db:
