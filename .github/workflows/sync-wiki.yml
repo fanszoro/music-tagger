@@ -22,7 +22,12 @@ jobs:
 
       - name: Clone wiki repo
         run: |
-          git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.wiki.git wiki
+          if ! git clone https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.wiki.git wiki; then
+            echo "⚠️  Wiki repository not found — please create the first page at:"
+            echo "    https://github.com/${{ github.repository }}/wiki"
+            echo "    Then re-run this workflow."
+            exit 0
+          fi
 
       - name: Prepare wiki pages
         run: |
