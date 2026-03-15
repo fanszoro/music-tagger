@@ -2,6 +2,26 @@
 
 Browse, search, and manage your entire music collection from the Library view.
 
+## Data Dimensions
+
+Explore your music collection through four distinct perspectives:
+
+### 🎵 Songs
+The default view displaying all individual tracks in your library.
+![Songs View](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/library-songs-view.png)
+
+### 🎤 Artists
+Group your library by artist. View artist profiles and all associated tracks.
+![Artists View](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/library-artists-view.png)
+
+### 💿 Albums
+Browse your collection by album, showcasing album art and metadata.
+![Albums View](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/library-albums-view.png)
+
+### 🎸 Genres
+Navigate your library categorised by musical genres.
+![Genres View](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/library-genres-view.png)
+
 ## View Modes
 
 The library supports two display modes, switchable from the top toolbar.

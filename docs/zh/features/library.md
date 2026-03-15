@@ -2,6 +2,26 @@
 
 通过音乐库视图浏览、搜索和管理您的完整音乐收藏。
 
+## 数据视角
+
+通过四个不同的维度自由探索您的音乐收藏：
+
+### 🎵 歌曲视角
+默认视图，展示音乐库中的所有独立音轨。
+![歌曲视角](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/library-songs-view.png)
+
+### 🎤 歌手视角
+按歌手对音乐库进行分组。集中查看歌手信息及其所有相关的音轨和专辑。
+![歌手视角](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/library-artists-view.png)
+
+### 💿 专辑视角
+以专辑为维度浏览整个音乐库，完美展示专辑封面与相关元数据。
+![专辑视角](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/library-albums-view.png)
+
+### 🎸 流派视角
+按音乐流派分类导航您的音乐库。
+![流派视角](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/library-genres-view.png)
+
 ## 视图模式
 
 音乐库支持两种显示模式，可从顶部工具栏切换。
