@@ -15,17 +15,37 @@ Preview any track in your library without leaving the app. The player appears as
 
 ## Metadata Editor
 
-Click any field on a track detail page to edit it inline.
+Click any field on a track detail page to edit it inline. The editor is organised into four tabs:
 
-**Supported fields:**
-- Title, Artist, Album, Album Artist
-- Genre, Year, Track Number, Disc Number
-- Comment, Language, BPM, Composer
-- Cover Art (drag-and-drop or URL fetch)
+### 📌 Core Data
+
+The primary metadata fields for the track: Title, Artist, Album, Album Artist, Genre, Year, Track Number, Disc Number, BPM, Composer, Comment, Language, and Cover Art.
+
+![Core Data Tab](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/editor-core-data.png)
+
+### 🤖 Smart Scraping
+
+Trigger on-demand metadata lookup for the current track. Choose from available scraper sources, preview the fetched result, and apply fields selectively.
+
+![Smart Scraping Tab](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/editor-smart-scraping.png)
+
+### 📝 Lyrics
+
+Attach LRC lyrics (synced or plain-text) to any track:
+
+1. Open the track detail panel → **Lyrics** tab.
+2. Paste LRC content or click **Fetch** to auto-retrieve from online sources.
+3. Save — lyrics are written to the audio file's tag if supported, or stored in the database.
+
+![Lyrics Tab](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/editor-lyrics.png)
+
+### ⏳ Time Machine
+
+Every metadata write is versioned. Browse the full change history with timestamps and field-level diffs, and roll back to any previous version with one click.
+
+![Time Machine Tab](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/editor-time-machine.png)
 
 All edits are validated before saving. Mandatory fields are highlighted if left blank.
-
-> 📸 *[Metadata editor inline editing screenshot — coming soon]*
 
 ## Lyrics Binding
 

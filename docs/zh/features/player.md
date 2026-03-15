@@ -15,17 +15,37 @@ Music Tagger 不只是打标签的工具——它提供完整的应用内音乐�
 
 ## 元数据编辑器
 
-点击音轨详情页中的任意字段即可内联编辑。
+点击音轨详情页中的任意字段即可内联编辑。编辑器分为四个标签页：
 
-**支持的字段：**
-- 标题、艺术家、专辑、专辑艺术家
-- 流派、年份、曲目编号、碟片编号
-- 评论、语种、BPM、作曲家
-- 封面图片（拖放或 URL 抓取）
+### 📌 核心数据
+
+音轨的主要元数据字段：标题、艺术家、专辑、专辑艺术家、流派、年份、曲目编号、碟片编号、BPM、作曲家、评论、语种及封面图片（拖放或 URL 抓取）。
+
+![核心数据](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/editor-core-data.png)
+
+### 🤖 智能刮削
+
+为当前音轨按需触发元数据查询。可从已配置的刮削来源中选择，预览抓取结果并选择性地应用各字段。
+
+![智能刮削](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/editor-smart-scraping.png)
+
+### 📝 歌词
+
+为任意音轨附加 LRC 歌词（同步或纯文本）：
+
+1. 打开音轨详情面板 → **歌词**标签页。
+2. 粘贴 LRC 内容，或点击**抓取**从在线来源自动获取。
+3. 保存——如果格式支持，歌词将写入音频文件的标签，否则存储于数据库中。
+
+![歌词](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/editor-lyrics.png)
+
+### ⏳ 时光机
+
+每次元数据写入均有版本记录。可按时间轴浏览完整的修改历史，查看每个字段的变更差异，并一键回滚至任意历史版本。
+
+![时光机](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/editor-time-machine.png)
 
 所有编辑在保存前均会经过验证。必填字段为空时会高亮提示。
-
-> 📸 *[元数据内联编辑截图 — 即将更新]*
 
 ## 歌词绑定
 

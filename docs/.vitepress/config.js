@@ -46,6 +46,7 @@ export default defineConfig({
                                 { text: '⚔️ Dispute Management', link: '/features/scraper' },
                                 { text: '📋 Logs & Cache', link: '/features/logs-cache' },
                                 { text: '🎵 Player & Editor', link: '/features/player' },
+                                { text: '🖼️ Music Library', link: '/features/library' },
                                 { text: '🗂️ File Health', link: '/features/file-management' },
                             ]
                         }
@@ -86,6 +87,7 @@ export default defineConfig({
                                 { text: '⚔️ 争议管理', link: '/zh/features/scraper' },
                                 { text: '📋 日志与缓存', link: '/zh/features/logs-cache' },
                                 { text: '🎵 播放器与编辑器', link: '/zh/features/player' },
+                                { text: '🖼️ 音乐库', link: '/zh/features/library' },
                                 { text: '🗂️ 文件健康检测', link: '/zh/features/file-management' },
                             ]
                         }
