@@ -6,7 +6,7 @@
 [![GitHub Forks](https://img.shields.io/github/forks/fanszoro/music-tagger?style=flat-square&logo=github)](https://github.com/fanszoro/music-tagger)
 [![Docker Pulls](https://img.shields.io/docker/pulls/fanss/music-tagger?style=flat-square&logo=docker)](https://hub.docker.com/r/fanss/music-tagger)
 [![License](https://img.shields.io/github/license/fanszoro/music-tagger?style=flat-square)](https://github.com/fanszoro/music-tagger/blob/main/LICENSE)
-[![Version](https://img.shields.io/badge/version-v0.6.0-blue?style=flat-square)](https://github.com/fanszoro/music-tagger/releases/tag/v0.6.0)
+[![Version](https://img.shields.io/badge/version-v0.6.0-blue?style=flat-square)](https://github.com/fanszoro/music-tagger/tree/v0.6.0)
 [![Docs](https://img.shields.io/badge/docs-online-brightgreen?style=flat-square&logo=gitbook)](https://fanszoro.github.io/music-tagger/)
 
 > [!NOTE]
