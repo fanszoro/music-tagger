@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - main
+      - v0.4.0
     paths:
       - "README.md"
       - ".github/workflows/dockerhub-description.yml"
+  workflow_dispatch:
 
 jobs:
   dockerhub-description:
