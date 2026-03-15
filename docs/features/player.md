@@ -13,7 +13,7 @@ Preview any track in your library without leaving the app. The player appears as
 
 > 📸 *[Player screenshot — coming soon]*
 
-![Player](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/player-editor.png)
+![Player](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.4.0/docs/images/player-editor.png)
 
 ## Metadata Editor
 

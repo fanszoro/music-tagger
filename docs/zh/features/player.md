@@ -13,7 +13,7 @@ Music Tagger 不只是打标签的工具——它提供完整的应用内音乐�
 
 > 📸 *[播放器截图 — 即将更新]*
 
-![播放器](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/player-editor.png)
+![播放器](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.4.0/docs/images/player-editor.png)
 
 ## 元数据编辑器
 

@@ -19,11 +19,11 @@ Themes are applied globally and persist across sessions. Each theme is carefully
 
 > 📸 *[Theme switching demo — coming soon]*
 
-![Theme Board](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/theme-board.png)
+![Theme Board](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.4.0/docs/images/theme-board.png)
 
 | Light Themes | Dark Themes |
 | :---: | :---: |
-| ![Light Themes](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/themes-light.png) | ![Dark Themes](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/themes-dark.png) |
+| ![Light Themes](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.4.0/docs/images/themes-light.png) | ![Dark Themes](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.4.0/docs/images/themes-dark.png) |
 
 > 📸 *[Light & dark theme gallery screenshots — coming soon]*
 

@@ -20,7 +20,7 @@ Identifies tracks in the database whose audio files can no longer be found on di
 | **Auto-Match** | Let the system search by filename or fingerprint |
 | **Remove Record** | Delete the orphaned database entry |
 
-![File Health](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/file-health.png)
+![File Health](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.4.0/docs/images/file-health.png)
 
 > 📸 *[Missing file scanner screenshot — coming soon]*
 

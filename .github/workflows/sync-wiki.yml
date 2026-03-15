@@ -3,7 +3,7 @@ name: Sync Docs to GitHub Wiki
 on:
   push:
     branches:
-      - v0.3.0
+      - v0.4.0
       - main
     paths:
       - "docs/**"

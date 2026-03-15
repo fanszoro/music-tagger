@@ -19,7 +19,7 @@ export default defineConfig({
                     { text: 'Guide', link: '/guide/getting-started' },
                     { text: 'Features', link: '/features/themes' },
                     {
-                        text: 'v0.3.0',
+                        text: 'v0.4.0',
                         items: [
                             { text: 'Changelog', link: 'https://github.com/fanszoro/music-tagger/releases' },
                             { text: 'Docker Hub', link: 'https://hub.docker.com/r/fanss/music-tagger' },
@@ -59,7 +59,7 @@ export default defineConfig({
                     { text: '指南', link: '/zh/guide/getting-started' },
                     { text: '功能', link: '/zh/features/themes' },
                     {
-                        text: 'v0.3.0',
+                        text: 'v0.4.0',
                         items: [
                             { text: '更新日志', link: 'https://github.com/fanszoro/music-tagger/releases' },
                             { text: 'Docker Hub', link: 'https://hub.docker.com/r/fanss/music-tagger' },
@@ -103,7 +103,7 @@ export default defineConfig({
             copyright: 'Copyright © 2024–present fanss'
         },
         editLink: {
-            pattern: 'https://github.com/fanszoro/music-tagger/edit/v0.3.0/docs/:path',
+            pattern: 'https://github.com/fanszoro/music-tagger/edit/v0.4.0/docs/:path',
             text: 'Edit this page on GitHub'
         },
         search: {

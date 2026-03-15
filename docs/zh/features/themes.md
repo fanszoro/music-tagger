@@ -19,11 +19,11 @@ Music Tagger 内置大量精心设计的主题，可在侧边栏一键切换，�
 
 > 📸 *[主题切换演示 — 即将更新]*
 
-![主题展示](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/theme-board.png)
+![主题展示](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.4.0/docs/images/theme-board.png)
 
 | 浅色主题 | 深色主题 |
 | :---: | :---: |
-| ![浅色主题](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/themes-light.png) | ![深色主题](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/themes-dark.png) |
+| ![浅色主题](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.4.0/docs/images/themes-light.png) | ![深色主题](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.4.0/docs/images/themes-dark.png) |
 
 > 📸 *[浅色与深色主题展示截图 — 即将更新]*
 

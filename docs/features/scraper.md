@@ -24,7 +24,7 @@ Track scan → Scraper A result ─┐
 
 ## Screenshots
 
-![Dispute Manager](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.3.0/docs/images/dispute-manager.png)
+![Dispute Manager](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.4.0/docs/images/dispute-manager.png)
 
 > 📸 *[Dispute management UI screenshot — coming soon]*
 
