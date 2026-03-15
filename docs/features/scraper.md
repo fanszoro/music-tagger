@@ -6,7 +6,7 @@ When multiple scrapers return conflicting metadata for the same track, Music Tag
 
 The scraper runs in the background, fetching metadata from multiple configured sources simultaneously.
 
-![Scraper](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/scraper.png)
+![Scraper](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/scraper.png)
 
 ## How Disputes Arise
 
@@ -30,7 +30,7 @@ Track scan → Scraper A result ─┐
 
 ## Dispute Manager UI
 
-![Dispute Manager](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/dispute-manager.png)
+![Dispute Manager](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/dispute-manager.png)
 
 ## Conflict Protection
 

@@ -21,7 +21,7 @@ Every operation in Music Tagger is transparent and auditable through the structu
 
 | Operation Logs | Log Detail |
 | :---: | :---: |
-| ![Logs](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/log-status.png) | ![Log Detail](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/log-detail.png) |
+| ![Logs](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/log-status.png) | ![Log Detail](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/log-detail.png) |
 
 ## Cache Browser
 
@@ -36,9 +36,9 @@ The cache browser gives you full visibility into what has been fetched from exte
 
 ### Screenshots
 
-![Cache Browser](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/cache-browser-1.png)
+![Cache Browser](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/cache-browser-1.png)
 
-![Cache Browser Detail](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/cache-browser-2.png)
+![Cache Browser Detail](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/cache-browser-2.png)
 
 ## Log Retention
 

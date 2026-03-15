@@ -6,7 +6,7 @@
 
 刮削器在后台运行，同时从多个已配置的来源抓取元数据。
 
-![刮削器](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/scraper.png)
+![刮削器](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/scraper.png)
 
 ## 冲突产生的原因
 
@@ -30,7 +30,7 @@
 
 ## 争议管理界面
 
-![争议管理器](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/dispute-manager.png)
+![争议管理器](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/dispute-manager.png)
 
 ## 字段保护
 

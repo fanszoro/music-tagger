@@ -21,7 +21,7 @@ Music Tagger 的每一项操作都通过结构化日志查看器和缓存浏览�
 
 | 操作日志 | 日志详情 |
 | :---: | :---: |
-| ![日志](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/log-status.png) | ![日志详情](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/log-detail.png) |
+| ![日志](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/log-status.png) | ![日志详情](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/log-detail.png) |
 
 ## 缓存浏览器
 
@@ -36,9 +36,9 @@ Music Tagger 的每一项操作都通过结构化日志查看器和缓存浏览�
 
 ### 截图预览
 
-![缓存浏览器](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/cache-browser-1.png)
+![缓存浏览器](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/cache-browser-1.png)
 
-![缓存浏览器详情](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/cache-browser-2.png)
+![缓存浏览器详情](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/cache-browser-2.png)
 
 ## 日志保留策略
 

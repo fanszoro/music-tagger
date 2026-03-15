@@ -1,4 +1,4 @@
-# 🎵 Music Tagger - v0.5.0
+# 🎵 Music Tagger - v0.6.0
 
 **Music Tagger** is a modern, high-performance web application designed for automated music metadata scraping, tag management, and audio library organization. Built for users with large local collections, it provides an effortless information hub natively via Docker.
 
@@ -6,7 +6,7 @@
 [![GitHub Forks](https://img.shields.io/github/forks/fanszoro/music-tagger?style=flat-square&logo=github)](https://github.com/fanszoro/music-tagger)
 [![Docker Pulls](https://img.shields.io/docker/pulls/fanss/music-tagger?style=flat-square&logo=docker)](https://hub.docker.com/r/fanss/music-tagger)
 [![License](https://img.shields.io/github/license/fanszoro/music-tagger?style=flat-square)](https://github.com/fanszoro/music-tagger/blob/main/LICENSE)
-[![Version](https://img.shields.io/badge/version-v0.5.0-blue?style=flat-square)](https://github.com/fanszoro/music-tagger/releases/tag/v0.5.0)
+[![Version](https://img.shields.io/badge/version-v0.6.0-blue?style=flat-square)](https://github.com/fanszoro/music-tagger/releases/tag/v0.6.0)
 [![Docs](https://img.shields.io/badge/docs-online-brightgreen?style=flat-square&logo=gitbook)](https://fanszoro.github.io/music-tagger/)
 
 > [!NOTE]
@@ -16,12 +16,12 @@
 
 | Dashboard & Themes |
 | :---: |
-| ![Dashboard](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/dashboard.png) |
-| ![Themes](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/theme-board.png) |
+| ![Dashboard](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/dashboard.png) |
+| ![Themes](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/theme-board.png) |
 
 | Logs & Status | Scraper Pipeline |
 | :---: | :---: |
-| ![Logs](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/log-status.png) | ![Scraper](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/scraper.png) |
+| ![Logs](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/log-status.png) | ![Scraper](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/scraper.png) |
 
 ## ✨ Key Features
 
@@ -39,7 +39,7 @@ Music Tagger ships with a broad collection of hand-crafted themes — dark, ligh
 
 | Light Themes | Dark Themes |
 | :---: | :---: |
-| ![Light Themes](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/themes-light.png) | ![Dark Themes](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/themes-dark.png) |
+| ![Light Themes](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/themes-light.png) | ![Dark Themes](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/themes-dark.png) |
 
 > 📸 *[Theme gallery screenshots — coming soon]*
 
@@ -49,7 +49,7 @@ Music Tagger ships with a broad collection of hand-crafted themes — dark, ligh
 
 When multiple scrapers return conflicting metadata for the same track, Music Tagger surfaces every candidate match and lets you decide field-by-field which value wins. Conflict resolution is tracked per-track so you can revisit past decisions at any time.
 
-![Dispute Manager](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/dispute-manager.png)
+![Dispute Manager](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/dispute-manager.png)
 
 > 📸 *[Dispute manager screenshot — coming soon]*
 
@@ -61,7 +61,7 @@ Every scraping job, metadata write, and system event is captured in a structured
 
 | Operation Logs | Cache Browser |
 | :---: | :---: |
-| ![Logs](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/log-status.png) | ![Cache](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/cache-browser-1.png) |
+| ![Logs](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/log-status.png) | ![Cache](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/cache-browser-1.png) |
 
 > 📸 *[Cache browser screenshot — coming soon]*
 
@@ -77,7 +77,7 @@ A full-featured in-app experience beyond just tagging:
 - **🎬 MV Linking** — Associate a music video URL to any track for quick launch.
 - **↩️ One-Click Revert** — Roll back any metadata change to its previous state.
 
-![Player & Editor](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/player-editor.png)
+![Player & Editor](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/player-editor.png)
 
 > 📸 *[Player & editor screenshots — coming soon]*
 
@@ -91,7 +91,7 @@ Keep your library clean with automated detection tools:
 - **Duplicate Detector** — Finds exact and near-duplicate files based on audio fingerprint or metadata similarity.
 - **Path Repair** — Suggests and applies bulk path corrections after directory reorganisations.
 
-![File Health](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/file-health.png)
+![File Health](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/file-health.png)
 
 > 📸 *[File health dashboard screenshot — coming soon]*
 
@@ -197,3 +197,31 @@ docker compose up -d
 ```
 
 Once the containers are running and database has initialized, head to `http://YOUR_SERVER_IP:8000` to start beautifully managing your audio library!
+
+---
+
+## 💬 Contact & Support
+
+| | |
+|---|---|
+| 📧 **Email** | [fansluck@qq.com](mailto:fansluck@qq.com) |
+| 🐛 **Bug Reports & Feedback** | [GitHub Issues](https://github.com/fanszoro/music-tagger/issues) |
+| 💡 **Feature Requests** | [GitHub Discussions](https://github.com/fanszoro/music-tagger/discussions) |
+| 📖 **Documentation** | [fanszoro.github.io/music-tagger](https://fanszoro.github.io/music-tagger/) |
+
+---
+
+## ❤️ Support the Project
+
+If Music Tagger has been useful to you, consider sponsoring to help keep the project actively maintained and improved.
+
+[![爱发电](https://img.shields.io/badge/爱发电-支持作者-946ce6?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyMi4wODFsLTEuNDUtMS4zMkM1LjQgMTUuMzYgMiAxMi4yNzggMiA4LjVBNS41IDUuNSAwIDAgMSA3LjUgM2MxLjc0IDAgMy40MS44MSA0LjUgMi4wOUMxMy4wOSAzLjgxIDE0Ljc2IDMgMTYuNSAzQTUuNSA1LjUgMCAwIDEgMjIgOC41YzAgMy43NzgtMy40IDYuODYtOC41NSAxMi4yNkwxMiAyMi4wODF6Ii8+PC9zdmc+)](https://afdian.com/a/fanss)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Buy%20Me%20a%20Coffee-FF5E5B?style=flat-square&logo=ko-fi)](https://ko-fi.com/fanss)
+
+Your support helps cover hosting, development time, and keeps the lights on. Thank you! 🙏
+
+---
+
+## 📄 License
+
+This project is released under the [MIT License](LICENSE).

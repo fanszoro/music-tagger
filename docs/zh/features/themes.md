@@ -19,13 +19,13 @@ Music Tagger 内置大量精心设计的主题，可在侧边栏一键切换，�
 
 主题展示板提供所有可用主题的完整网格预览，点击即可应用。
 
-![主题展示](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/theme-board.png)
+![主题展示](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/theme-board.png)
 
 ## 浅色与深色主题库
 
 | 浅色主题 | 深色主题 |
 | :---: | :---: |
-| ![浅色主题](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/themes-light.png) | ![深色主题](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/themes-dark.png) |
+| ![浅色主题](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/themes-light.png) | ![深色主题](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/themes-dark.png) |
 
 ## 如何切换主题
 

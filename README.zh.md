@@ -1,4 +1,4 @@
-# 🎵 Music Tagger - v0.5.0
+# 🎵 Music Tagger - v0.6.0
 
 **Music Tagger** 是一款现代、高性能的音乐库元数据（Tag）自动化刮削与标签管理系统，专为拥有大量本地音乐收藏的用户打造。只需简单部署，即可拥有一个美观且全功能的音乐信息中心。
 
@@ -6,7 +6,7 @@
 [![GitHub Forks](https://img.shields.io/github/forks/fanszoro/music-tagger?style=flat-square&logo=github)](https://github.com/fanszoro/music-tagger)
 [![Docker Pulls](https://img.shields.io/docker/pulls/fanss/music-tagger?style=flat-square&logo=docker)](https://hub.docker.com/r/fanss/music-tagger)
 [![License](https://img.shields.io/github/license/fanszoro/music-tagger?style=flat-square)](https://github.com/fanszoro/music-tagger/blob/main/LICENSE)
-[![Version](https://img.shields.io/badge/%E7%89%88%E6%9C%AC-v0.5.0-blue?style=flat-square)](https://github.com/fanszoro/music-tagger/releases/tag/v0.5.0)
+[![Version](https://img.shields.io/badge/%E7%89%88%E6%9C%AC-v0.6.0-blue?style=flat-square)](https://github.com/fanszoro/music-tagger/releases/tag/v0.6.0)
 [![文档](https://img.shields.io/badge/文档-在线查看-brightgreen?style=flat-square&logo=gitbook)](https://fanszoro.github.io/music-tagger/)
 
 > [!NOTE]
@@ -16,12 +16,12 @@
 
 | 仪表盘与主题 |
 | :---: |
-| ![仪表盘](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/dashboard.png) |
-| ![主题展示](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/theme-board.png) |
+| ![仪表盘](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/dashboard.png) |
+| ![主题展示](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/theme-board.png) |
 
 | 日志与状态 | 扫描与刮削流水线 |
 | :---: | :---: |
-| ![日志](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/log-status.png) | ![刮削流水线](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/scraper.png) |
+| ![日志](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/log-status.png) | ![刮削流水线](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/scraper.png) |
 
 ## ✨ 核心特性
 
@@ -39,7 +39,7 @@ Music Tagger 内置大量精心设计的主题，涵盖深色、浅色及高对�
 
 | 浅色主题 | 深色主题 |
 | :---: | :---: |
-| ![浅色主题](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/themes-light.png) | ![深色主题](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/themes-dark.png) |
+| ![浅色主题](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/themes-light.png) | ![深色主题](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/themes-dark.png) |
 
 > 📸 *[主题展示截图 — 即将更新]*
 
@@ -49,7 +49,7 @@ Music Tagger 内置大量精心设计的主题，涵盖深色、浅色及高对�
 
 当多个刮削来源对同一音轨返回相互冲突的元数据时，Music Tagger 会汇总所有候选结果，让你逐字段决定采用哪个值。所有冲突仲裁记录均与曲目绑定，随时可以回溯和修改。
 
-![争议管理器](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/dispute-manager.png)
+![争议管理器](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/dispute-manager.png)
 
 > 📸 *[争议管理器截图 — 即将更新]*
 
@@ -61,7 +61,7 @@ Music Tagger 内置大量精心设计的主题，涵盖深色、浅色及高对�
 
 | 操作日志 | 缓存浏览器 |
 | :---: | :---: |
-| ![日志](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/log-status.png) | ![缓存](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/cache-browser-1.png) |
+| ![日志](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/log-status.png) | ![缓存](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/cache-browser-1.png) |
 
 > 📸 *[缓存浏览器截图 — 即将更新]*
 
@@ -77,7 +77,7 @@ Music Tagger 内置大量精心设计的主题，涵盖深色、浅色及高对�
 - **🎬 MV 链接** — 为曲目关联 MV 地址，一键跳转。
 - **↩️ 一键回退** — 将任意元数据更改回滚至修改前的状态。
 
-![播放器与编辑器](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/player-editor.png)
+![播放器与编辑器](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/player-editor.png)
 
 > 📸 *[播放器与编辑器截图 — 即将更新]*
 
@@ -91,7 +91,7 @@ Music Tagger 内置大量精心设计的主题，涵盖深色、浅色及高对�
 - **重复文件检测** — 基于音频指纹或元数据相似度发现完全重复及近似重复的文件。
 - **路径修复** — 在目录结构调整后，自动建议并批量应用路径修正。
 
-![文件健康](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/file-health.png)
+![文件健康](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/file-health.png)
 
 > 📸 *[文件健康检测截图 — 即将更新]*
 
@@ -199,3 +199,31 @@ docker compose up -d
 ```
 
 待镜像拉取完毕并成功启动容器后，访问 `http://您的服务器IP:8000` 即可开始优雅地管理您的音源库！
+
+---
+
+## 💬 联系与支持
+
+| | |
+|---|---|
+| 📧 **邮件支持** | [fansluck@qq.com](mailto:fansluck@qq.com) |
+| 🐛 **Bug 反馈与建议** | [GitHub Issues](https://github.com/fanszoro/music-tagger/issues) |
+| 💡 **功能请求** | [GitHub Discussions](https://github.com/fanszoro/music-tagger/discussions) |
+| 📖 **在线文档** | [fanszoro.github.io/music-tagger](https://fanszoro.github.io/music-tagger/) |
+
+---
+
+## ❤️ 支持项目
+
+如果 Music Tagger 对你有帮助，欢迎给作者充电，帮助维持项目持续更新与改进！
+
+[![爱发电](https://img.shields.io/badge/爱发电-为我充电-946ce6?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyMi4wODFsLTEuNDUtMS4zMkM1LjQgMTUuMzYgMiAxMi4yNzggMiA4LjVBNS41IDUuNSAwIDAgMSA3LjUgM2MxLjc0IDAgMy40MS44MSA0LjUgMi4wOUMxMy4wOSAzLjgxIDE0Ljc2IDMgMTYuNSAzQTUuNSA1LjUgMCAwIDEgMjIgOC41YzAgMy43NzgtMy40IDYuODYtOC41NSAxMi4yNkwxMiAyMi4wODF6Ii8+PC9zdmc+)](https://afdian.com/a/fanss)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Buy%20Me%20a%20Coffee-FF5E5B?style=flat-square&logo=ko-fi)](https://ko-fi.com/fanss)
+
+感谢每一位支持者，你们的支持是项目持续更新的动力！🙏
+
+---
+
+## 📄 开源协议
+
+本项目基于 [MIT License](LICENSE) 开源发布。

@@ -10,13 +10,13 @@
 
 默认的表格视图——以紧凑、可排序的网格展示所有音轨，包含标题、艺术家、专辑、流派、年份等字段列。点击任意列头即可按该字段排序。
 
-![列表视图](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/library-list-view.png)
+![列表视图](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/library-list-view.png)
 
 ### 🖼️ 封面视图
 
 以封面图片为核心的网格布局，将每张专辑或音轨的封面图置于视图中央，非常适合在标签完善的音乐库中进行视觉浏览。
 
-![封面视图](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/library-cover-view.png)
+![封面视图](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/library-cover-view.png)
 
 ## 高级筛选
 
@@ -27,7 +27,7 @@
 - 筛选状态在视图模式切换后保持不变。
 - 支持跨所有索引字段的**全文搜索**。
 
-![高级筛选](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/library-advanced-filter.png)
+![高级筛选](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/library-advanced-filter.png)
 
 ## 批量操作
 

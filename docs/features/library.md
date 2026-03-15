@@ -10,13 +10,13 @@ The library supports two display modes, switchable from the top toolbar.
 
 The default table view — shows all tracks in a dense, sortable grid with columns for title, artist, album, genre, year, and more. Click any column header to sort.
 
-![List View](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/library-list-view.png)
+![List View](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/library-list-view.png)
 
 ### 🖼️ Cover View
 
 A visually rich grid layout that displays each track or album with its cover art front and centre. Ideal for browsing a well-tagged library at a glance.
 
-![Cover View](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/library-cover-view.png)
+![Cover View](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/library-cover-view.png)
 
 ## Advanced Filtering
 
@@ -27,7 +27,7 @@ Narrow down your library using the filter panel on the left:
 - Filters persist across view mode switches.
 - Supports **free-text search** across all indexed fields.
 
-![Advanced Filter](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/library-advanced-filter.png)
+![Advanced Filter](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/library-advanced-filter.png)
 
 ## Batch Actions
 

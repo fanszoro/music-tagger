@@ -21,8 +21,9 @@ export default defineConfig({
                     { text: 'Home', link: '/' },
                     { text: 'Guide', link: '/guide/getting-started' },
                     { text: 'Features', link: '/features/themes' },
+                    { text: 'Support', link: '/guide/support' },
                     {
-                        text: 'v0.5.0',
+                        text: 'v0.6.0',
                         items: [
                             { text: 'Changelog', link: 'https://github.com/fanszoro/music-tagger/releases' },
                             { text: 'Docker Hub', link: 'https://hub.docker.com/r/fanss/music-tagger' },
@@ -35,6 +36,7 @@ export default defineConfig({
                             text: 'Getting Started',
                             items: [
                                 { text: 'Quick Start', link: '/guide/getting-started' },
+                                { text: '💙 Contact & Support', link: '/guide/support' },
                             ]
                         }
                     ],
@@ -62,8 +64,9 @@ export default defineConfig({
                     { text: '首页', link: '/zh/' },
                     { text: '指南', link: '/zh/guide/getting-started' },
                     { text: '功能', link: '/zh/features/themes' },
+                    { text: '支持与赞助', link: '/zh/guide/support' },
                     {
-                        text: 'v0.5.0',
+                        text: 'v0.6.0',
                         items: [
                             { text: '更新日志', link: 'https://github.com/fanszoro/music-tagger/releases' },
                             { text: 'Docker Hub', link: 'https://hub.docker.com/r/fanss/music-tagger' },
@@ -76,6 +79,7 @@ export default defineConfig({
                             text: '快速开始',
                             items: [
                                 { text: '快速部署', link: '/zh/guide/getting-started' },
+                                { text: '💙 联系与支持', link: '/zh/guide/support' },
                             ]
                         }
                     ],
@@ -108,7 +112,7 @@ export default defineConfig({
             copyright: 'Copyright © 2024–present fanss'
         },
         editLink: {
-            pattern: 'https://github.com/fanszoro/music-tagger/edit/v0.5.0/docs/:path',
+            pattern: 'https://github.com/fanszoro/music-tagger/edit/v0.6.0/docs/:path',
             text: 'Edit this page on GitHub'
         },
         search: {

@@ -11,7 +11,7 @@ Music Tagger 不只是打标签的工具——它提供完整的应用内音乐�
 - 音量和播放速度控制。
 - 键盘快捷键（`空格`播放/暂停，`←/→`快进快退 10 秒）。
 
-![播放器与编辑器](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/player-editor.png)
+![播放器与编辑器](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/player-editor.png)
 
 ## 元数据编辑器
 
@@ -21,13 +21,13 @@ Music Tagger 不只是打标签的工具——它提供完整的应用内音乐�
 
 音轨的主要元数据字段：标题、艺术家、专辑、专辑艺术家、流派、年份、曲目编号、碟片编号、BPM、作曲家、评论、语种及封面图片（拖放或 URL 抓取）。
 
-![核心数据](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/editor-core-data.png)
+![核心数据](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/editor-core-data.png)
 
 ### 🤖 智能刮削
 
 为当前音轨按需触发元数据查询。可从已配置的刮削来源中选择，预览抓取结果并选择性地应用各字段。
 
-![智能刮削](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/editor-smart-scraping.png)
+![智能刮削](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/editor-smart-scraping.png)
 
 ### 📝 歌词
 
@@ -37,13 +37,13 @@ Music Tagger 不只是打标签的工具——它提供完整的应用内音乐�
 2. 粘贴 LRC 内容，或点击**抓取**从在线来源自动获取。
 3. 保存——如果格式支持，歌词将写入音频文件的标签，否则存储于数据库中。
 
-![歌词](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/editor-lyrics.png)
+![歌词](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/editor-lyrics.png)
 
 ### ⏳ 时光机
 
 每次元数据写入均有版本记录。可按时间轴浏览完整的修改历史，查看每个字段的变更差异，并一键回滚至任意历史版本。
 
-![时光机](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/editor-time-machine.png)
+![时光机](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/editor-time-machine.png)
 
 所有编辑在保存前均会经过验证。必填字段为空时会高亮提示。
 
