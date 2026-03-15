@@ -15,17 +15,17 @@ Themes are applied globally and persist across sessions. Each theme is carefully
 | **High Contrast** | Accessibility-focused with maximum contrast ratios |
 | **Coloured** | Vibrant accent-driven palettes |
 
-## Screenshots
+## Theme Board
 
-> 📸 *[Theme switching demo — coming soon]*
+The theme board gives you a full-grid preview of every available theme before applying it.
 
-![Theme Board](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.4.0/docs/images/theme-board.png)
+![Theme Board](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/theme-board.png)
+
+## Light & Dark Gallery
 
 | Light Themes | Dark Themes |
 | :---: | :---: |
-| ![Light Themes](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.4.0/docs/images/themes-light.png) | ![Dark Themes](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.4.0/docs/images/themes-dark.png) |
-
-> 📸 *[Light & dark theme gallery screenshots — coming soon]*
+| ![Light Themes](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/themes-light.png) | ![Dark Themes](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/themes-dark.png) |
 
 ## How to Switch Themes
 
@@ -36,3 +36,5 @@ Themes are applied globally and persist across sessions. Each theme is carefully
 ## Custom Themes
 
 Custom theme support via CSS variable overrides is planned for a future release. The theming system is built on CSS custom properties, making it straightforward to extend.
+
+> 📸 *[Custom theme editor screenshot — coming soon]*

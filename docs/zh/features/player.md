@@ -11,9 +11,7 @@ Music Tagger 不只是打标签的工具——它提供完整的应用内音乐�
 - 音量和播放速度控制。
 - 键盘快捷键（`空格`播放/暂停，`←/→`快进快退 10 秒）。
 
-> 📸 *[播放器截图 — 即将更新]*
-
-![播放器](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.4.0/docs/images/player-editor.png)
+![播放器与编辑器](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/player-editor.png)
 
 ## 元数据编辑器
 
@@ -27,7 +25,7 @@ Music Tagger 不只是打标签的工具——它提供完整的应用内音乐�
 
 所有编辑在保存前均会经过验证。必填字段为空时会高亮提示。
 
-> 📸 *[元数据编辑器截图 — 即将更新]*
+> 📸 *[元数据内联编辑截图 — 即将更新]*
 
 ## 歌词绑定
 
@@ -47,6 +45,8 @@ Music Tagger 不只是打标签的工具——它提供完整的应用内音乐�
 1. 打开音轨详情 → **MV** 标签页。
 2. 粘贴 YouTube、Bilibili 或直链视频地址。
 3. 点击**打开 MV** 以在默认浏览器中启动。
+
+> 📸 *[MV 链接截图 — 即将更新]*
 
 ## 一键回退
 

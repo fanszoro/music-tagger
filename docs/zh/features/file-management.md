@@ -20,9 +20,7 @@
 | **自动匹配** | 让系统按文件名或指纹搜索 |
 | **删除记录** | 清除孤立的数据库条目 |
 
-![文件健康](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.4.0/docs/images/file-health.png)
-
-> 📸 *[丢失文件扫描器截图 — 即将更新]*
+![文件健康](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/file-health.png)
 
 ## 重复文件检测
 

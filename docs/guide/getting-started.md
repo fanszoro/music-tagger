@@ -69,7 +69,7 @@ services:
     command: ["redis-server", "--appendonly", "yes"]
 
   app:
-    image: fanss/music-tagger:v0.4.0
+    image: fanss/music-tagger:v0.5.0
     container_name: music-tag-app
     depends_on:
       db: { condition: service_healthy }

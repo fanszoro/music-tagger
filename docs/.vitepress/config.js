@@ -7,6 +7,9 @@ export default defineConfig({
 
     head: [
         ['link', { rel: 'icon', href: '/music-tagger/favicon.ico' }],
+        // Google Analytics 4 (privacy-friendly: anonymized IP, no ad signals)
+        ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-47PVXWSKVS' }],
+        ['script', {}, `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-47PVXWSKVS',{anonymize_ip:true,allow_google_signals:false,allow_ad_personalization_signals:false})`],
     ],
 
     locales: {
@@ -19,7 +22,7 @@ export default defineConfig({
                     { text: 'Guide', link: '/guide/getting-started' },
                     { text: 'Features', link: '/features/themes' },
                     {
-                        text: 'v0.4.0',
+                        text: 'v0.5.0',
                         items: [
                             { text: 'Changelog', link: 'https://github.com/fanszoro/music-tagger/releases' },
                             { text: 'Docker Hub', link: 'https://hub.docker.com/r/fanss/music-tagger' },
@@ -59,7 +62,7 @@ export default defineConfig({
                     { text: '指南', link: '/zh/guide/getting-started' },
                     { text: '功能', link: '/zh/features/themes' },
                     {
-                        text: 'v0.4.0',
+                        text: 'v0.5.0',
                         items: [
                             { text: '更新日志', link: 'https://github.com/fanszoro/music-tagger/releases' },
                             { text: 'Docker Hub', link: 'https://hub.docker.com/r/fanss/music-tagger' },
@@ -103,7 +106,7 @@ export default defineConfig({
             copyright: 'Copyright © 2024–present fanss'
         },
         editLink: {
-            pattern: 'https://github.com/fanszoro/music-tagger/edit/v0.4.0/docs/:path',
+            pattern: 'https://github.com/fanszoro/music-tagger/edit/v0.5.0/docs/:path',
             text: 'Edit this page on GitHub'
         },
         search: {

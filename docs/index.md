@@ -6,7 +6,7 @@ hero:
   text: "Intelligent Music Metadata Manager"
   tagline: Self-hosted, high-performance music library tagging. Privacy-first, endlessly customisable.
   image:
-    src: /hero-preview.png
+    src: https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/dashboard.png
     alt: Music Tagger Dashboard
   actions:
     - theme: brand

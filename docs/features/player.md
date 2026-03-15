@@ -11,9 +11,7 @@ Preview any track in your library without leaving the app. The player appears as
 - Volume and playback speed control.
 - Keyboard shortcuts (`Space` to play/pause, `←/→` to seek 10s).
 
-> 📸 *[Player screenshot — coming soon]*
-
-![Player](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.4.0/docs/images/player-editor.png)
+![Player & Editor](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/player-editor.png)
 
 ## Metadata Editor
 
@@ -27,7 +25,7 @@ Click any field on a track detail page to edit it inline.
 
 All edits are validated before saving. Mandatory fields are highlighted if left blank.
 
-> 📸 *[Metadata editor screenshot — coming soon]*
+> 📸 *[Metadata editor inline editing screenshot — coming soon]*
 
 ## Lyrics Binding
 
@@ -47,6 +45,8 @@ Associate a music video URL with any track for quick launch:
 1. Open track detail → **MV** tab.
 2. Paste a YouTube, Bilibili, or direct video URL.
 3. Click **Open MV** to launch in your default browser.
+
+> 📸 *[MV linking screenshot — coming soon]*
 
 ## One-Click Revert
 

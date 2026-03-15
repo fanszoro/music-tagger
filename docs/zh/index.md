@@ -6,7 +6,7 @@ hero:
   text: "智能音乐元数据管理系统"
   tagline: 自托管、高性能的音乐库标签管理。隐私优先，高度可定制。
   image:
-    src: /hero-preview.png
+    src: https://raw.githubusercontent.com/fanszoro/music-tagger/v0.5.0/docs/images/dashboard.png
     alt: Music Tagger 控制面板
   actions:
     - theme: brand
