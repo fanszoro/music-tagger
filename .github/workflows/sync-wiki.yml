@@ -3,8 +3,7 @@ name: Sync Docs to GitHub Wiki
 on:
   push:
     branches:
-      - v0.5.0
-      - main
+      - develop
     paths:
       - "docs/**"
   workflow_dispatch:

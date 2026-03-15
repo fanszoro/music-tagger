@@ -3,8 +3,7 @@ name: Deploy Docs to GitHub Pages
 on:
   push:
     branches:
-      - v0.5.0
-      - main
+      - develop
     paths:
       - "docs/**"
       - "package.json"
