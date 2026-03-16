@@ -215,7 +215,7 @@ Once the containers are running and database has initialized, head to `http://YO
 
 If Music Tagger has been useful to you, consider sponsoring to help keep the project actively maintained and improved.
 
-[![爱发电](https://img.shields.io/badge/爱发电-支持作者-946ce6?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyMi4wODFsLTEuNDUtMS4zMkM1LjQgMTUuMzYgMiAxMi4yNzggMiA4LjVBNS41IDUuNSAwIDAgMSA3LjUgM2MxLjc0IDAgMy40MS44MSA0LjUgMi4wOUMxMy4wOSAzLjgxIDE0Ljc2IDMgMTYuNSAzQTUuNSA1LjUgMCAwIDEgMjIgOC41YzAgMy43NzgtMy40IDYuODYtOC41NSAxMi4yNkwxMiAyMi4wODF6Ii8+PC9zdmc+)](https://afdian.com/a/fanss)
+[![爱发电](https://img.shields.io/badge/爱发电-支持作者-946ce6?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyMi4wODFsLTEuNDUtMS4zMkM1LjQgMTUuMzYgMiAxMi4yNzggMiA4LjVBNS41IDUuNSAwIDAgMSA3LjUgM2MxLjc0IDAgMy40MS44MSA0LjUgMi4wOUMxMy4wOSAzLjgxIDE0Ljc2IDMgMTYuNSAzQTUuNSA1LjUgMCAwIDEgMjIgOC41YzAgMy43NzgtMy40IDYuODYtOC41NSAxMi4yNkwxMiAyMi4wODF6Ii8+PC9zdmc+)](https://ifdian.net/a/music-tagger)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-Buy%20Me%20a%20Coffee-FF5E5B?style=flat-square&logo=ko-fi)](https://ko-fi.com/fanss)
 
 Your support helps cover hosting, development time, and keeps the lights on. Thank you! 🙏

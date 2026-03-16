@@ -217,7 +217,7 @@ docker compose up -d
 
 如果 Music Tagger 对你有帮助，欢迎给作者充电，帮助维持项目持续更新与改进！
 
-[![爱发电](https://img.shields.io/badge/爱发电-为我充电-946ce6?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyMi4wODFsLTEuNDUtMS4zMkM1LjQgMTUuMzYgMiAxMi4yNzggMiA4LjVBNS41IDUuNSAwIDAgMSA3LjUgM2MxLjc0IDAgMy40MS44MSA0LjUgMi4wOUMxMy4wOSAzLjgxIDE0Ljc2IDMgMTYuNSAzQTUuNSA1LjUgMCAwIDEgMjIgOC41YzAgMy43NzgtMy40IDYuODYtOC41NSAxMi4yNkwxMiAyMi4wODF6Ii8+PC9zdmc+)](https://afdian.com/a/fanss)
+[![爱发电](https://img.shields.io/badge/爱发电-为我充电-946ce6?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyMi4wODFsLTEuNDUtMS4zMkM1LjQgMTUuMzYgMiAxMi4yNzggMiA4LjVBNS41IDUuNSAwIDAgMSA3LjUgM2MxLjc0IDAgMy40MS44MSA0LjUgMi4wOUMxMy4wOSAzLjgxIDE0Ljc2IDMgMTYuNSAzQTUuNSA1LjUgMCAwIDEgMjIgOC41YzAgMy43NzgtMy40IDYuODYtOC41NSAxMi4yNkwxMiAyMi4wODF6Ii8+PC9zdmc+)](https://ifdian.net/a/music-tagger)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-Buy%20Me%20a%20Coffee-FF5E5B?style=flat-square&logo=ko-fi)](https://ko-fi.com/fanss)
 
 感谢每一位支持者，你们的支持是项目持续更新的动力！🙏
