@@ -193,7 +193,7 @@ services:
       - .env
     volumes:
       # Automatically mounts the directory you established inside the .env file
-      - ${MUSIC_DIR:-/path/to/your/music}:/music:ro
+      - ${MUSIC_DIR:-/path/to/your/music}:/music:rw
     restart: unless-stopped
 
 volumes:

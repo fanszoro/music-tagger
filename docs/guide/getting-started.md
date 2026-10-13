@@ -77,7 +77,7 @@ services:
     ports: ["8000:8000"]
     env_file: [.env]
     volumes:
-      - ${MUSIC_DIR:-/path/to/your/music}:/music:ro
+      - ${MUSIC_DIR:-/path/to/your/music}:/music:rw
     restart: unless-stopped
 
 volumes:

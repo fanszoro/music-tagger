@@ -193,7 +193,7 @@ services:
       - .env
     volumes:
       # 映射您的音乐文件以供刮削和解析
-      - ${MUSIC_DIR:-/path/to/your/music}:/music:ro
+      - ${MUSIC_DIR:-/path/to/your/music}:/music:rw
     restart: unless-stopped
 
 volumes:

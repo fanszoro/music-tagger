@@ -45,7 +45,7 @@ services:
       - .env
     volumes:
       # Mount music directory from .env for reading/scanning. Adjust path in .env as needed.
-      - ${MUSIC_DIR:-/path/to/your/music}:/music:ro
+      - ${MUSIC_DIR:-/path/to/your/music}:/music:rw
       # Logs directory mapping if needed
       # - ./logs:/app/logs
     restart: unless-stopped
