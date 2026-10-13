@@ -8,19 +8,19 @@
 
 ### 🎵 歌曲视角
 默认视图，展示音乐库中的所有独立音轨。
-![歌曲视角](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/library-songs-view.png)
+![歌曲视角](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.8.0/docs/images/library-songs-view.png)
 
 ### 🎤 歌手视角
 按歌手对音乐库进行分组。集中查看歌手信息及其所有相关的音轨和专辑。
-![歌手视角](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/library-artists-view.png)
+![歌手视角](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.8.0/docs/images/library-artists-view.png)
 
 ### 💿 专辑视角
 以专辑为维度浏览整个音乐库，完美展示专辑封面与相关元数据。
-![专辑视角](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/library-albums-view.png)
+![专辑视角](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.8.0/docs/images/library-albums-view.png)
 
 ### 🎸 流派视角
 按音乐流派分类导航您的音乐库。
-![流派视角](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/library-genres-view.png)
+![流派视角](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.8.0/docs/images/library-genres-view.png)
 
 ## 视图模式
 
@@ -30,13 +30,13 @@
 
 默认的表格视图——以紧凑、可排序的网格展示所有音轨，包含标题、艺术家、专辑、流派、年份等字段列。点击任意列头即可按该字段排序。
 
-![列表视图](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/library-list-view.png)
+![列表视图](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.8.0/docs/images/library-list-view.png)
 
 ### 🖼️ 封面视图
 
 以封面图片为核心的网格布局，将每张专辑或音轨的封面图置于视图中央，非常适合在标签完善的音乐库中进行视觉浏览。
 
-![封面视图](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/library-cover-view.png)
+![封面视图](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.8.0/docs/images/library-cover-view.png)
 
 ## 高级筛选
 
@@ -47,7 +47,7 @@
 - 筛选状态在视图模式切换后保持不变。
 - 支持跨所有索引字段的**全文搜索**。
 
-![高级筛选](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/library-advanced-filter.png)
+![高级筛选](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.8.0/docs/images/library-advanced-filter.png)
 
 ## 批量操作
 
@@ -59,3 +59,11 @@
 - **删除** — 从数据库中移除选中的记录。
 
 > 📸 *[批量操作栏截图 — 即将更新]*
+
+
+## 上下文菜单与侧滑详情面板
+
+- **右键上下文菜单**：右键点击任意歌曲、专辑或歌手卡片，快速调用快捷操作：立即播放、编辑标签、在线刮削、查看详情或删除。
+- **移动端长按手势**：在触屏设备上长按 400ms 即可顺畅唤出专属操作菜单。
+- **侧滑抽屉面板 (Slideover)**：无需跳出当前列表，在侧边抽屉中快速查看音频规格参数（码率、采样率、编码格式、声道）与标签完整度评分环。
+- **StatsBar 统计条展开动效**：底部统计栏支持原地丝滑展开，实时展示曲目总数、艺术家分布、专辑总数与磁盘占用体积。

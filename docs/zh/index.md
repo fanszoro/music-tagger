@@ -6,7 +6,7 @@ hero:
   text: "智能音乐元数据管理系统"
   tagline: 自托管、高性能的音乐库标签管理。隐私优先，高度可定制。
   image:
-    src: https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/dashboard.png
+    src: https://raw.githubusercontent.com/fanszoro/music-tagger/v0.8.0/docs/images/dashboard.png
     alt: Music Tagger 控制面板
   actions:
     - theme: brand
@@ -17,6 +17,10 @@ hero:
       link: https://github.com/fanszoro/music-tagger
 
 features:
+  - icon: 🎬
+    title: 视频与 NFO 伴生文件
+    details: 原生支持视频媒体资产，自动生成配套 .nfo XML 文件，无缝对接 Jellyfin、Emby、Kodi 与 Plex。
+    link: /zh/features/video-metadata
   - icon: 🎨
     title: 丰富的主题库
     details: 近百款精心设计的深色、浅色及高对比度主题，可在侧边栏一键切换。

@@ -8,19 +8,19 @@ Explore your music collection through four distinct perspectives:
 
 ### 🎵 Songs
 The default view displaying all individual tracks in your library.
-![Songs View](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/library-songs-view.png)
+![Songs View](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.8.0/docs/images/library-songs-view.png)
 
 ### 🎤 Artists
 Group your library by artist. View artist profiles and all associated tracks.
-![Artists View](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/library-artists-view.png)
+![Artists View](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.8.0/docs/images/library-artists-view.png)
 
 ### 💿 Albums
 Browse your collection by album, showcasing album art and metadata.
-![Albums View](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/library-albums-view.png)
+![Albums View](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.8.0/docs/images/library-albums-view.png)
 
 ### 🎸 Genres
 Navigate your library categorised by musical genres.
-![Genres View](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/library-genres-view.png)
+![Genres View](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.8.0/docs/images/library-genres-view.png)
 
 ## View Modes
 
@@ -30,13 +30,13 @@ The library supports two display modes, switchable from the top toolbar.
 
 The default table view — shows all tracks in a dense, sortable grid with columns for title, artist, album, genre, year, and more. Click any column header to sort.
 
-![List View](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/library-list-view.png)
+![List View](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.8.0/docs/images/library-list-view.png)
 
 ### 🖼️ Cover View
 
 A visually rich grid layout that displays each track or album with its cover art front and centre. Ideal for browsing a well-tagged library at a glance.
 
-![Cover View](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/library-cover-view.png)
+![Cover View](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.8.0/docs/images/library-cover-view.png)
 
 ## Advanced Filtering
 
@@ -47,7 +47,7 @@ Narrow down your library using the filter panel on the left:
 - Filters persist across view mode switches.
 - Supports **free-text search** across all indexed fields.
 
-![Advanced Filter](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/library-advanced-filter.png)
+![Advanced Filter](https://raw.githubusercontent.com/fanszoro/music-tagger/v0.8.0/docs/images/library-advanced-filter.png)
 
 ## Batch Actions
 
@@ -59,3 +59,11 @@ Select multiple tracks and apply actions in bulk:
 - **Delete** — remove selected records from the database.
 
 > 📸 *[Batch action bar screenshot — coming soon]*
+
+
+## Context Menu & Quick Slideover
+
+- **Right-Click Context Menu**: Right-click any track, album, or artist card to trigger quick actions: Play Now, Edit Metadata, Scrape Tags, or Delete.
+- **Mobile Long-Press**: On touch devices, press and hold any item for 400ms to open the responsive context menu.
+- **Slideover Detail Panel**: Inspect track audio characteristics (bitrate, sample rate, codec, duration) and tag completeness score ring without leaving your current scroll position.
+- **Dynamic StatsBar**: The bottom statistics bar animates in-place to reveal deep collection insights (total artists, unique releases, storage footprint, and play duration).

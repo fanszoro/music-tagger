@@ -6,7 +6,7 @@ hero:
   text: "Intelligent Music Metadata Manager"
   tagline: Self-hosted, high-performance music library tagging. Privacy-first, endlessly customisable.
   image:
-    src: https://raw.githubusercontent.com/fanszoro/music-tagger/v0.6.0/docs/images/dashboard.png
+    src: https://raw.githubusercontent.com/fanszoro/music-tagger/v0.8.0/docs/images/dashboard.png
     alt: Music Tagger Dashboard
   actions:
     - theme: brand
@@ -17,6 +17,10 @@ hero:
       link: https://github.com/fanszoro/music-tagger
 
 features:
+  - icon: 🎬
+    title: Video & Sidecar NFO
+    details: Native video file support with automatic sidecar .nfo XML generation for Jellyfin, Emby, Kodi, and Plex.
+    link: /features/video-metadata
   - icon: 🎨
     title: Rich Theme Gallery
     details: Dozens of hand-crafted dark, light and high-contrast themes — switchable instantly from the sidebar.
